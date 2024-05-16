@@ -37,6 +37,10 @@ body {
     border-radius: 5px;
     margin-bottom: 25px;
     color: white; }
+    .card-productos a:hover {
+      transition-property: padding;
+      transition-duration: 0.2s;
+      padding: 1rem; }
 
 .services div {
   padding: 15px;
@@ -93,8 +97,9 @@ main {
       text-decoration: none;
       color: white; }
       main .banner a:hover {
-        font-size: 20px;
-        padding: 13px; }
+        transition-property: padding;
+        transition-duration: 0.5s;
+        padding: 1rem; }
   main .subtitle {
     background-color: #385B8A;
     height: 130px;

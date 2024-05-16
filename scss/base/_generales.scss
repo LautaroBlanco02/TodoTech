@@ -50,6 +50,11 @@ body{
         border-radius: 5px; 
         margin-bottom: 25px;
         color: white;
+        &:hover{
+            transition-property: padding;
+            transition-duration: 0.2s;
+            padding: 1rem;
+        }
     }
 }
 
